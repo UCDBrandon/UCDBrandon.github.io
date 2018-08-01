@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#enter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: visibility 0s 2s, opacity 2s linear;
+	padding: 0;
+	height: 100vh;
+}
+
+#welcomeLoad {
+	font-size: 130px;
+}
+
+#bigContainer {
+	display: none;
+	flex-direction: column;
+	width: 100%;
+	height: 100%:
+}
+
+#header {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 40pt;
+    color:lightslategray;
+    text-align: center;
+	margin: 1%;
+}
+
+#image {
+	margin-top: 1.5%;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#BrandonPic {
+	display: inline;
+	margin: 0 auto;
+	height: 20%;
+	width: 20%;
+	border-radius: 30%;
+}
+
+a {
+	width: auto;
+}
+
+#links {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.pictureLogos {
+	display: flex;
+	flex-direction: row;
+	width: 5%;
+	height: 5%;
+	margin: 1% 1.5%;
+}
+
+.pictureLogos:hover {
+	color: lightgreen;
+}
+
+.imageModification {
+	width: 100%;
+	height: 100%;
+}
+
+#profileLinkBox {
+	width: 80%;
+	height: 100%;
+}
+
+#githubProfileLink {
+	font-size: 150%;
+}
+
+#resumeBox {
+	display: flex;
+	flex-direction: row;
+}
+
+#contentDiv {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#welcome {
+	font-size: 150%;
+}
+
+#projects {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+	font-size: 150%;
+}
+
+#projectDescriptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	font-size: 200%;
+}
+
+#currentProject {
+	display: flex;
+	max-width: 50%;
+    height: 200px;
+    
+}
+
+/*.sideImages{
+	width: 20%;
+	height: 100%;
+	margin: 5% 2%
+}
+
+
+#middleContent {
+	width: 50%;
+	height: 100%;
+	margin: 0% 3%;
+}
+*/
+.projectImages {
+	width: 100%;
+	height: 100%;
+}
