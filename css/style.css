@@ -117,16 +117,23 @@ h2 {
 
 #projectDescriptions {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 	font-size: 200%;
 }
 
-#currentProject {
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectImg {
 	display: flex;
-	max-width: 50%;
-    height: 200px;
+	max-width: 70%;
+    height: 70%;
     
 }
 
