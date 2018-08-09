@@ -17,7 +17,12 @@ function showPage() {
 function changeImage(id){
     var currentImage = document.getElementById(id);
     var image = currentImage.src;
-    image = image.replace("https://ucdbrandon.github.io/images/", "")
+    console.log(image);
+    //Github pages
+    //image = image.replace("https://ucdbrandon.github.io/images/", "")
+    //Bracket
+    image = image.replace("http://127.0.0.1:49823/images/","");
+    //Regular open
     //image = image.replace("file:///C:/Users/Brandon/Desktop/UCDBrandon.github.io-master/images/", "");
     if (image.includes("PhotoQ")){
         if (image == "PhotoQ1.png") {
