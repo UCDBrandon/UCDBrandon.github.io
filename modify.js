@@ -19,7 +19,7 @@ function changeImage(id){
     var currentImage = document.getElementById(id);
     var image = currentImage.src;
 	image = image.replace("https://ucdbrandon.github.io/images/", "");
-    image = image.replace("file:///C:/Users/Brandon/Desktop/UCDBrandon.github.io-master/images/", "");
+    //image = image.replace("file:///C:/Users/Brandon/Desktop/UCDBrandon.github.io-master/images/", "");
     if (image.includes("PhotoQ")){
         if (image == "PhotoQ1.png") {
             currentImage.src = "./images/PhotoQ2.png"
