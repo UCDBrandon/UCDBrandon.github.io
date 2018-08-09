@@ -19,9 +19,9 @@ function changeImage(id){
     var image = currentImage.src;
     console.log(image);
     //Github pages
-    //image = image.replace("https://ucdbrandon.github.io/images/", "")
+    image = image.replace("https://ucdbrandon.github.io/images/", "")
     //Bracket
-    image = image.replace("http://127.0.0.1:49823/images/","");
+    //image = image.replace("http://127.0.0.1:49823/images/","");
     //Regular open
     //image = image.replace("file:///C:/Users/Brandon/Desktop/UCDBrandon.github.io-master/images/", "");
     if (image.includes("PhotoQ")){
