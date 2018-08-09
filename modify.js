@@ -15,10 +15,9 @@ function showPage() {
 }
 
 function changeImage(id){
-    console.log(id);
     var currentImage = document.getElementById(id);
     var image = currentImage.src;
-	image = image.replace("https://ucdbrandon.github.io/images/", "");
+    image = image.replace("https://ucdbrandon.github.io/images/", "")
     //image = image.replace("file:///C:/Users/Brandon/Desktop/UCDBrandon.github.io-master/images/", "");
     if (image.includes("PhotoQ")){
         if (image == "PhotoQ1.png") {
