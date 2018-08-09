@@ -1,3 +1,5 @@
+var projects = ["PhotoQ", "Bookclub"];
+
 function hideEnter() {
 	var enter = document.getElementById("enter");
 	enter.style.visibility = "hidden";
@@ -12,18 +14,27 @@ function showPage() {
 	bigDiv.style.display = "flex";
 }
 
-function changeImage(){
-    var currentImage = document.getElementById("currentImageMods");
+function changeImage(id){
+    console.log(id);
+    var currentImage = document.getElementById(id);
     var image = currentImage.src;
-    console.log(currentImage.src);
-    image = image.replace("images/", "");
-    console.log(image);
-    if (image = "project5-1.jpg"){
-        currentImage.src = "images/project5-2.jpg";
-    } else if (image = "project5-2.jpg") {
-        currentImage.src = "images/project5-3.jpg";
-    } else {
-        currentImage.src = "images/project5-1.jpg";
+    image = image.replace("file:///C:/Users/Brandon/Desktop/UCDBrandon.github.io-master/images/", "");
+    if (image.includes("PhotoQ")){
+        if (image == "PhotoQ1.png") {
+            currentImage.src = "./images/PhotoQ2.png"
+        } else if (image == "PhotoQ2.png") {
+            currentImage.src = "./images/PhotoQ3.png"
+        } else {
+            currentImage.src = "./images/PhotoQ1.png"
+        }
+    } else if (image.includes("Bookclub")){
+        if (image == "Bookclub1.png") {
+            currentImage.src = "./images/Bookclub2.png"
+        } else if (image == "Bookclub2.png") {
+            currentImage.src = "./images/Bookclub3.png"
+        } else {
+            currentImage.src = "./images/Bookclub1.png"
+        }
     }
 }
 
